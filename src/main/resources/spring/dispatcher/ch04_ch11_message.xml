@@ -2,7 +2,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	 <!-- 메세지 파일이 여러개라면 name=basename's' -->
 	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
-		<property name="basename" value="message/ch04_error"></property> <!-- 메세지 파일이 여러개라면 name=basename's' -->
+		<property name="basenames">
+			<list>
+				<value>message/ch04_error</value>
+				<value>message/ch11_internationalization</value>
+			</list>
+		</property>
 	</bean>
 </beans>
