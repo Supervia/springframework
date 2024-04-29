@@ -37,7 +37,7 @@
 	<div class="accordion-item">
 		<h2 class="accordion-header">
 			<button class="accordion-button ${chNum=='ch03'?'':'collapsed'}" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="${chNum=='ch03'}"
-				aria-controls="collapseThree">Ch03</button>
+				aria-controls="collapseThree">Ch03. 요청 매핑 메소드의 매개변수</button>
 		</h2>
 		<div id="collapseThree" class="accordion-collapse collapse ${chNum=='ch03'?'show':''}" data-bs-parent="#accordionExample">
 			<div class="accordion-body">
@@ -57,7 +57,7 @@
 	<div class="accordion-item">
 		<h2 class="accordion-header">
 			<button class="accordion-button ${chNum=='ch04'?'':'collapsed'}" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="${chNum=='ch04'}"
-				aria-controls="collapseFour">Ch04</button>
+				aria-controls="collapseFour">Ch04. 폼 유효성 검사</button>
 		</h2>
 		<div id="collapseFour" class="accordion-collapse collapse ${chNum=='ch04'?'show':''}" data-bs-parent="#accordionExample">
 			<div class="accordion-body">
